@@ -1,0 +1,28 @@
+h1 {
+    color:rebeccapurple;
+    background-color: black;
+    font-size: 50px;
+}
+
+section div {
+    color: red;
+} /*todos los div que esten dentro de un section seran rojos*/
+
+p {
+    line-height: 4;
+    width: 50px;
+    height: 50px;
+    padding: 50px 30px 20px 60px; /*la caja que contiene mi contenido*/
+    margin-left: 40px; /*el margen que se deja del padding*/
+}
+
+ul{
+    list-style-type: none; /*quita las viñetas*/
+}
+
+#id
+.class
+
+h1 span{
+    display: table;
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+.MargenIzquierdo{
+    margin-left: 1rem;
+}
+
+/*NAVBAR*/
+.h1__TituloPrincipal{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.h2__TituloPrincipal{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.LogosSociales__li img{
+    width: 2rem;
+    margin-left: .5rem;
+}
+
+.navbar{
+    background-color: rgb(243, 216, 166);
+    border-radius: .5rem;
+    box-shadow: 0 5px 3px rgb(248, 209, 141);
+}
+
+.MailFooter input{
+    width: 20rem;
+}
+
+.LogosSociales__ul{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+/*FOOTER*/
+
+.PieDePagina{
+    white-space: nowrap;
+}
+
+/*TO TOP*/
+
+.to_top{
+    width: 3rem;
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+    opacity: .5;
+}
+
+.to_top:hover{
+    opacity: 1;
+}
+
+
+/*INDEX*/
+.MainIndex{
+    background-color: rgba(250, 240, 223, 0.384);
+    padding-top: 6rem;
+}
+
+.card{
+    background-color: rgba(250, 240, 223, 0.384);
+}
+
+.card img{
+    width: 15rem;
+    height: 17rem;
+}
+
+.card .ProductosIndex__Imagen{
+    width: 35rem;
+    height: auto;
+}
+
+.ProductosIndex{
+    padding-top: 5rem;
+}
+
+.ProductosIndex .card{
+    background-color: rgba(250, 240, 223, 0.384);
+    border: none;
+}
+
+.ProductosIndex__Card a{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    background-color: rgb(252, 234, 203);
+}
+
+.VideoIndex .card{
+    background-color: rgba(250, 240, 223, 0.384);
+    border: none;
+}
+
+.VideoIndex{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*CONTACTO*/
+.MainContacto{
+    background-color: rgba(250, 240, 223, 0.384);
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.contacto__form{
+    padding: 1.5rem;
+    border: black solid;
+    border-radius: .5rem;
+}
+
+.contacto__datos{
+    margin-top: 4rem;
+}
+
+.contacto__datos ul li{
+    background-color: rgba(250, 240, 223, 0.384);
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+
+    .card .ProductosIndex__Imagen{
+        width: 20rem;
+        height: auto;
+    }
+
+    .VideoIndex{
+        display: none;
+    }
+
+    .contacto__datos{
+        margin-top: 1rem;
+    }
+
+}
+@media (max-width: 991px){
+
+    .LogosSociales__li img{
+        width: 3rem;
+        margin-left: .5rem;
+    }
+
+}
+@media (max-width: 1270px){
+
+    iframe{
+        width: 450px;
+        height: 225px;
+    }
+
+}

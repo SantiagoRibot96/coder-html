@@ -1,0 +1,12 @@
+.toTop{
+    width: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    opacity: .5;
+    z-index: 100;
+
+    &:hover{
+        opacity: 1;
+    }
+}

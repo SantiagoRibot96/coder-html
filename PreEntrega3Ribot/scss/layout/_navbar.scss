@@ -1,0 +1,29 @@
+.navbar{
+    background-color:map-get($paleta, terciario );
+    border-radius: .5rem;
+    box-shadow: 0 5px 3px map-get($paleta, secundario );
+    height: 5rem;
+    @include fuente(300, 1.3rem);
+}
+
+.navbar{
+    &__h1{
+        @include fuente(600, 2.5rem);
+    }
+    &__h2{
+        text-align: center;
+        @include fuente(300, 1.3rem);
+    }
+}
+
+.logosSociales__img{
+    width: 2rem;
+    margin-left: .5rem;
+}
+
+.logosSociales{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+

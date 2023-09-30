@@ -1,0 +1,415 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mailFooter input {
+  width: 20rem;
+}
+
+.pieDePagina {
+  white-space: wrap;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: rgb(226, 194, 146);
+  border-radius: 0.5rem;
+  box-shadow: 0 -5px 3px rgba(240, 220, 190, 0.7);
+  padding-bottom: 1rem;
+}
+footer .col-md--centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.logoFooter {
+  width: 20rem;
+}
+
+.navbar {
+  background-color: rgb(226, 194, 146);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 3px rgba(240, 220, 190, 0.7);
+  height: 5rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.navbar__h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.navbar__h2 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.logosSociales__img {
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.logosSociales {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+main {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: rgb(250, 240, 223);
+}
+
+.margenIzquierdo {
+  margin-left: 1rem;
+}
+
+.negrita {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: none;
+}
+
+.card {
+  background-color: rgba(240, 220, 190, 0.7);
+}
+.card img {
+  width: 15rem;
+  height: 17rem;
+}
+.card .nosotrosIndex__imagen {
+  width: 35rem;
+  height: auto;
+}
+
+.toTop {
+  width: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0.5;
+  z-index: 100;
+}
+.toTop:hover {
+  opacity: 1;
+}
+
+.mainIndex {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainIndex .card {
+  border: none;
+}
+.mainIndex h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nosotrosIndex {
+  margin-top: 1rem;
+}
+.nosotrosIndex .card {
+  border: none;
+}
+.nosotrosIndex__imagen {
+  width: 35rem;
+  height: auto;
+}
+.nosotrosIndex__card a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+
+.videoIndex {
+  margin-top: 1rem;
+}
+.videoIndex .card {
+  background-color: rgba(240, 220, 190, 0.7);
+  border: none;
+}
+
+.contacto__form {
+  width: 100%;
+  padding: 1.5rem;
+  border: black solid;
+  border-radius: 0.5rem;
+}
+.contacto__datos ul li {
+  background-color: rgb(250, 240, 223);
+}
+
+.mainContacto {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  bottom: 8rem;
+  left: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainContacto__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.card__productos {
+  border: none;
+}
+.card__productos__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card__productos__btn a {
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+.card__productos__texto {
+  width: 100%;
+  text-align: left;
+}
+
+.mainProductos {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainProductos h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.input-group {
+  width: 25%;
+}
+.input-group--ancho {
+  width: 40rem;
+}
+
+.dropdown-menu {
+  width: 93%;
+  margin-left: 1rem;
+}
+
+.form-select {
+  text-align: left;
+}
+.form-check {
+  margin-left: 1rem;
+}
+
+.Img--pequeña {
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.FechaDeEntrega div a {
+  font-size: 1rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0.2rem 2rem 0.2rem 2rem;
+  background-color: rgb(226, 194, 146);
+}
+
+.mainComprar {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  bottom: 8rem;
+  left: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainComprar__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.contacto__form legend {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.mainUbicacion {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  bottom: 8rem;
+  left: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.mainUbicacion__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.mainUbicacion iframe {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.mainUbicacion p {
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .card__productos__btn a {
+    width: fit-content;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(226, 194, 146);
+  }
+  .margen {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .navbar {
+    height: auto;
+  }
+  .logosSociales__img {
+    width: 3rem;
+    margin-left: 0.5rem;
+  }
+  main {
+    margin-top: 8rem;
+  }
+}
+@media (max-width: 767px) {
+  .card .nosotrosIndex__imagen {
+    width: 80%;
+    height: auto;
+  }
+  .videoIndex {
+    display: none;
+  }
+  .contacto__datos {
+    margin-top: 1rem;
+  }
+  .card__productos__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card__productos__btn a {
+    width: fit-content;
+    font-size: 1.2rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .input-group {
+    margin: 0 1rem 0 2rem;
+    padding: 0;
+    width: 40%;
+  }
+  .input-group label {
+    display: none;
+  }
+  .fixed-bottom {
+    position: static;
+  }
+  .mainUbicacion {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  .mainUbicacion__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .mainContacto {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  .mainContacto__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .mainComprar {
+    position: static;
+    top: 0rem;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+  }
+  .mainComprar__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .logoFooter {
+    width: 15rem;
+  }
+}
+@media (max-width: 370px) {
+  .navbar__h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .navbar__h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

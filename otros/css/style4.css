@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+        "nav     header      header"
+        "nav     productos   aside"
+        "nav     servicios   aside"
+        "nav     footer      footer";
+    grid-template-columns:  15vw 67vw 15vw;
+    grid-template-rows:  10vh 37vh 37vh 10vh;
+    gap: 1vw;
+}
+
+/*768px es una tablet*/
+@media  screen and (max-width: 768px) {
+    #grilla{
+    display: grid;
+    grid-template-areas:
+        "header     header      header      header"
+        "nav        nav         nav         nav"
+        "productos  productos   productos   aside"
+        "servicios  servicios   servicios   aside"
+        "footer     footer      footer      footer";
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  100px 1fr 1fr 1fr 60px;
+    gap: 1vw;
+    }
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+#productos{
+    grid-area: productos;
+}
+#servicios{
+    grid-area: servicios;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+.border{
+    border: 1px solid black;
+}

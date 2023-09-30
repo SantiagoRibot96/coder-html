@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barra_navegacion ul{
+    list-style-type: none;
+}
+body{
+    background-image: url(../imagenes/logo-footer.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pie_de_pagina{
+    text-align: right;
+    padding-left: 35rem;
+}
+.nueva_linea{
+    display: block;
+    font-weight: bold;
+}
+footer ul{
+    display: table;
+    width: 100%;
+}
+footer ul li{
+    display: table-cell ;
+    align-items: center;
+}
+.mail_footer{
+    border: 2px solid black;
+    background-color: rgba(50, 50, 50, 0.3);
+    width: 15rem;
+    padding: 3px;
+}
+.logo_footer{
+    width: 12rem;
+    padding-right: 35em;
+}
+footer{
+    width: fit-content;
+    height: fit-content;
+}
+header nav ul{
+    display: table;
+    width: 100%;
+}
+header nav ul li{
+    display: table-cell;
+    align-items: center;
+}
+.barra_navegacion{
+    text-align: right;
+    padding-right: 3rem;
+    width: 25rem;
+}
+.titulo_principal{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 25rem;
+}
+.logo_sociales{
+    align-items: center;
+}
+header{
+    background-color: rgba(50, 50, 50, 0.3);
+    width: fit-content;
+    height: fit-content;
+}

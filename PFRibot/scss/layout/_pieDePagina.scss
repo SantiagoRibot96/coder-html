@@ -1,0 +1,31 @@
+.mailFooter{
+    input{
+    width: 20rem;
+    }
+}
+
+.pieDePagina{
+    white-space: wrap;
+    @include fuente(300, 1.3rem);
+}
+
+footer{
+    background-color:map-get($paleta, terciario );
+    border-radius: .5rem;
+    box-shadow: 0 -5px 3px map-get($paleta, secundario );
+    padding-bottom: 1rem;
+    .col-md--centered{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+}
+
+.logoFooter{
+    width: 20rem;
+}

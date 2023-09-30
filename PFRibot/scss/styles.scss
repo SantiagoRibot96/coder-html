@@ -1,0 +1,18 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./normalize/reset";
+
+@import "./layout/pieDePagina";
+@import "./layout/navbar";
+@import "./layout/main";
+@import "./layout/estilos";
+
+@import "./components/card";
+@import "./components/toTop";
+
+@import "./views/index";
+@import "./views/contacto";
+@import "./views/productos";
+@import "./views/comprar";
+@import "./views/ubicacion";
+@import "./views/mediaQ";

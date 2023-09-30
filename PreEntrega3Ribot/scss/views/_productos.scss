@@ -1,0 +1,29 @@
+.mainProductos{
+    @include fuente(200, 1.2rem);
+    h5{
+        @include fuente(600, 1.5rem);
+    }
+}
+
+.card__productos{
+
+    &__btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__btn a{
+        width: 100%;
+        font-size: 1.2rem;
+        color: black;
+        @include fuente(600, 1.3rem);
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: map-get($paleta, terciario);
+    }
+
+    &__texto{
+        width: 100%;
+        text-align: left;
+    }
+}

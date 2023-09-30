@@ -1,0 +1,93 @@
+/*
+@font-face {
+    font-family: miFuente;
+    src: url("");
+}
+*/
+
+/*
+*{
+    font-family: 'Courier New', Courier, monospace;
+    Si quisiera descargar una fuente o diseñar una fuenta nueva: debo descargar el .ttf
+    font-family: miFuente;
+    Tambien se puede hacer a travez de google fonts
+    font-family: roboto, sans-serif; Si la fuente roboto no funciona, pone sans-serif por defecto - Roboto es una fuente, hay muchas
+    Recordar poner en el head del HTML el link a el google fonts correspondiente
+} 
+*/
+
+.padd1{
+    border: solid 3px red;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+}
+
+.padd2{
+    border: solid 3px red;
+    padding: 100px;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.padd3{
+    border: solid 3px red;
+    background-color: black;
+    color: white;
+    padding: 300px;
+    height: fit-content;
+    width: fit-content;
+}
+
+/*
+    overflow:   Hidden:     Elimina lo que excede al bloque
+                Visible:    Por defecto, lo que sobra se escribe pisando otros box
+                scroll:     Se genera un scroll tanto en y como x
+                auto:       Se genera un scroll solo en el eje necesario
+*/
+
+/*
+    propiedades de las etiquetas (tanto bloque como linea):
+        Content:  Mi texto
+        Padding:  Relleno que va antes del borde
+        Border:   Borde
+        Margin:   Similar al padding, pero es no visible y ninguna etiqueta va a poder ponerse ahi (Va luego del border)
+
+        ----------------------------------
+                    margin
+        ----------------------------------
+                    border
+        ----------------------------------
+                    padding
+        ----------------------------------
+                    content
+*/
+
+/*
+    display: inline : Pone los div uno seguido al otro - no recomendable-
+    display: inline-block: Hace que un div ocupe lo justo y necesario - recomendable -
+*/
+
+/*
+    position: Se usa para fixear la posicion de algo. Puede ser para una publiciadad o boton que no se valla de la pantalla al scrollear
+        fixed:      similar al absolute, donde el contenedor es la ventana del navegador
+        sticky:     similar a relative, dentro de un contenedor cualquiera
+*/
+
+/*
+    text-decoration: none: quita la linea azul
+*/
+
+/*
+    hoover
+    opacity
+    display: flex
+    align-content/items eje y
+    flex-wrap
+    justify-content eje x
+*/

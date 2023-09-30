@@ -1,0 +1,12 @@
+.card2{
+    background-color: $color_base;
+    &__title{
+        font-size: 10rem;
+    }
+    &__description{
+        font-size: 5rem;
+    }
+    &__img{
+        width: 15rem;
+    }
+}

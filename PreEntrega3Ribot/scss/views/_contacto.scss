@@ -1,0 +1,19 @@
+.contacto{
+
+    &__form{
+        width: 100%;
+        padding: 1.5rem;
+        border: black solid;
+        border-radius: .5rem;
+    }
+
+    &__datos{
+        ul li{
+            background-color: map-get($paleta, primario );
+        }
+    }
+}
+
+.mainContacto{
+    @include fuente(200, 1.2rem);
+}

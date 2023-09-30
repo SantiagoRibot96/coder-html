@@ -1,0 +1,116 @@
+/*se pueden crear variables*/
+
+$fuente_base: normal 24px/1.5;//cada vez que ponga fuente_base, se le va a poner esos valores.
+$color_base: red;//estas son variables globales
+$vista: mobile;
+$redes: (
+    twitter: blue,
+    facebook: red,
+    send-mail: cyan
+); //mapa de variables, para los each
+
+@import "./reset";
+@import "./card2";
+
+/*el orden con el que ponemos los import es importante, por ejemplo si usas una variable. deberia ser primero variables, despues reset, despues el resto.*/
+
+h1{
+    margin: 1rem;
+}
+
+/*se puede escribir de forma mas silimar al legunaje c*/
+
+div{
+    margin: 1rem;
+    border-top: 1rem solid black;
+
+    $color_especial: cyan;//esto es una variable que va a funcionar solo aqui dentro y en sus hijos.    
+    p{
+        padding: 1rem;
+        background-color: $color_especial;
+    }
+}//los p dentro de div van a tener 1rem de padding
+
+/*tambien es metodologia bem friendly. el & anula el espacio*/
+
+.card{
+    background-color: $color_base;
+    &__title{
+        font-size: 10rem;
+    }
+    &__description{
+        font-size: 5rem;
+    }
+    &__img{
+        width: 15rem;
+    }
+}
+
+/*se pueden usar toda la palafernaria del lenguaje c*/
+body{
+
+
+    @if $vista ==desktop{
+
+    }
+    @else if $vista ==mobile{
+        background-color: aqua;
+    }
+    @else{
+
+    }
+
+    @for $i from 1 through 3{
+        .col-#{$i}{
+            width:10% * $i;
+        }
+    }
+
+    @each $color in blue, yellow, black{
+        .#{$color}{
+            color:#{$color};
+        }
+    }
+
+    @each $key,$value in $redes{
+        .btn--#{$key} {
+            background-color: $value;
+        }
+    }
+
+    h1{
+        color: map-get($redes,send-mail);
+    }
+}
+
+.btnpapi{
+    width:10rem;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    color: cyan;
+}
+
+.btnpapi--aceptar{
+    @extend .btnpapi;
+    background-color: green;
+    color:yellow;
+}
+
+.btnpapi--cancelar{
+    @extend .btnpapi;
+    background-color: red;
+    color: black;
+}
+
+@mixin btnmami ($parametro1, $parametro2){
+    width:10rem;
+    background-color: $parametro1;
+    border: 1px solid $parametro2;
+    text-align: center;
+    color: cyan;
+}
+
+.btnmami--cancelar{
+    @include btnmami(blue, cyan);
+}

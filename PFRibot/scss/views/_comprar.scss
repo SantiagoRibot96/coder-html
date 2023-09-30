@@ -1,0 +1,45 @@
+.input-group{
+    width: 25%;
+    &--ancho{
+        width: 40rem;
+    }
+}
+
+.dropdown-menu{
+    width: 93%;
+    margin-left: 1rem;
+}
+
+.form{
+    &-select{
+        text-align: left;
+    }
+    &-check{
+        margin-left: 1rem;
+    }
+}
+
+.Img--pequeña{
+    width: 2rem;
+    margin-left: .5rem;
+}
+
+.FechaDeEntrega div a{
+    font-size: 1rem;
+    color: black;
+    @include fuente(600, 1.3rem);
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    background-color: map-get($paleta, terciario );
+}
+
+.mainComprar{
+    @include mainX(absolute);
+    @include fuente(200, 1.2rem);
+}
+
+.contacto__form{
+    legend{
+        @include fuente(600, 1.5rem);
+    }
+}
+

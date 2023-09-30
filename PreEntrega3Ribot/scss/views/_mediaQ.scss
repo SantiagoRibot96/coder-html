@@ -1,0 +1,102 @@
+@media (max-width: map-get($breakpointsBS, xl)){
+
+    iframe{
+        width: 450px;
+        height: 225px;
+    }
+
+    .card__productos__btn a{
+        width: fit-content;
+        font-size: 1rem;
+        color: black;
+        font-weight: bolder;
+        background-color: map-get($paleta, terciario);
+    }
+}
+
+@media (max-width: map-get($breakpointsBS, lg)){
+
+    .navbar{
+        height: auto;
+    }
+
+    .logosSociales__img{
+        width: 3rem;
+        margin-left: .5rem;
+    }
+
+    .margen{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .anclado{
+        position: static;
+    }
+
+    main{
+        margin-top: 8rem;
+
+        &Ubicacion{
+            @include mainX(static);
+        }
+        &Contacto{
+            @include mainX(static);
+        }
+        &Comprar{
+            @include mainX(static);
+        }
+    }
+}
+
+@media (max-width: map-get($breakpointsBS, md)){
+
+    .card {
+        .nosotrosIndex__imagen{
+            width: 20rem;
+            height: auto;
+        }
+    }
+
+    .videoIndex{
+        display: none;
+    }
+
+    .contacto__datos{
+        margin-top: 1rem;
+    }
+
+    .card__productos__btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        a{
+            width: fit-content;
+            font-size: 1.2rem;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+    }
+
+    .input-group{
+        margin: 0 1rem 0 2rem;
+        padding: 0;
+        width: 40%;
+
+        label{
+            display: none;
+        } 
+    }
+}
+
+@media (max-width: 370px){
+    .navbar{
+        &__h1{
+            @include fuente(600, 2rem);
+        }
+        &__h2{
+            text-align: center;
+            @include fuente(300, 1rem);
+        }
+    }
+}

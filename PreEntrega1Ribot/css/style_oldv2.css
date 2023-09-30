@@ -1,0 +1,104 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    background-color: rgb(221, 184, 115);
+    align-items: baseline;
+    width: 100%;
+    box-shadow: 0 5px 3px rgb(124, 93, 39);
+}
+.titulo_principal{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.barra_navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: end;
+    align-items: baseline;
+}
+.barra_navegacion ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.barra_navegacion ul .menu {
+    font-size: 2rem;
+    padding: .5rem;
+    background-color: rgb(209, 177, 118);
+    border-radius: 2rem;
+    display: flex;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    align-items: baseline;
+    justify-content: center;
+    width: 30%;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu a:visited{
+    color: black;
+}
+.logo_sociales img{
+    width: 3rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+/*BODY*/
+.to_top{
+    width: 3%;
+    position: fixed;
+    bottom: 12%;
+    right: 3%;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(236, 235, 235);
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+.mail_footer{
+    padding: .5rem;
+    background-color: rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 44rem;
+    margin-right: 23rem;
+}
+.mail_footer input{
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+.pie_de_pagina{
+    margin-left: 15rem;
+    text-align: center;
+}

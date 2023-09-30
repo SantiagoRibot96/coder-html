@@ -1,0 +1,12 @@
+.mainUbicacion{
+    @include mainX(absolute); 
+    @include fuente(200, 1.2rem);
+    iframe{
+        border-radius: .5rem;
+        width: 100%;
+    }
+
+    p{
+        width: 100%;
+    }
+}

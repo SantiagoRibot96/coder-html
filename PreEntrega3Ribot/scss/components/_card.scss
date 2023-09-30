@@ -1,0 +1,13 @@
+.card{
+    background-color: map-get($paleta, secundario );
+
+    img{
+        width: 15rem;
+        height: 17rem;
+    }
+
+    .nosotrosIndex__imagen{
+        width: 35rem;
+        height: auto;
+    }
+}

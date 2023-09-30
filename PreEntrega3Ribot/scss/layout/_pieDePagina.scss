@@ -1,0 +1,16 @@
+.mailFooter{
+    input{
+    width: 20rem;
+    }
+}
+
+.pieDePagina{
+    white-space: nowrap;
+    @include fuente(300, 1.3rem);
+}
+
+footer{
+    background-color:map-get($paleta, terciario );
+    border-radius: .5rem;
+    box-shadow: 0 -5px 3px map-get($paleta, secundario );
+}

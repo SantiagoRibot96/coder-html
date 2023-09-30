@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TodoParrillas - Comprar</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../imagenes/favicom.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html" class="titulo_principal">
+                <h1>TODOPARRILLAS</h1>
+                <h2>-Desde 1973-</h2>
+            </a>  
+            <nav class="barra_navegacion">
+                <ul>
+                    <li class="menu"><a href="../index.html">Inicio</a></li>
+                    <li class="menu"><a href="./productos.html">Productos</a></li>
+                    <li class="menu"><a href="./contacto.html">Contacto</a></li>
+                    <li class="menu"><a href="./ubicacion.html">¿Donde nos encontramos?</a></li>
+                    <li class="logo_sociales"><a href="https://www.facebook.com/todoparrillas/"><img src="../imagenes/facebook-logo.png" alt="Acceso a Facebook"></a></li>
+                    <li class="logo_sociales"><a href="https://www.instagram.com/todo_parrillas"><img src="../imagenes/instagram-logo.webp" alt="Acceso a Instagram"></a></li>
+                    <li class="logo_sociales"><a href="https://wa.me/5491160249087"><img src="../imagenes/whatsapp-logo.webp" alt="Acceso a Whatsapp"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main_comprar">
+            <a href="comprar.html"><img class="to_top" src="../imagenes/to_top.jpg" alt="Al inicio"></a>
+            <section class="formulario_comprar">
+                <form id="opciones_comprar">
+                    <fieldset>
+                        <div id="seleccion_modelo">
+                            <p>Modelo</p>
+                            <select id="tipo_parrilla">
+                                <option value="barba">La barba</option>
+                                <option value="qbo">La QBO</option>
+                                <option value="flama">La flama</option>
+                                <option value="portatil">Portatil</option>
+                            </select>
+                        </div>
+                        <div id="seleccion_tamaño">
+                            <p>Tamaño</p>
+                            <select id="tamaño_parrilla">
+                                <option value="n1">N°1</option>
+                                <option value="n2">N°2</option>
+                                <option value="n3">N°3</option>
+                            </select>
+                        </div>
+                        <div id="seleccion_color">
+                            <p>Color</p>
+                            <select id="color_parrilla" name="color">
+                                <option value="negro">Negro</option>
+                                <option value="gris">Gris</option>
+                                <option value="otro">Otro (especificar)</option>
+                            </select>
+                        </div>
+                        <div id="seleccion_accesorios">
+                            <p>Accesorios</p>
+                            <select id="accesorios_parrilla">
+                                <option value="fogon">Fogon</option>
+                                <option value="mesada">Mesada</option>
+                                <option value="brasero">Brasero</option>
+                                <option value="palita">Palita</option>
+                            </select>
+                        </div>
+                        <div id="seleccion_fecha">
+                        </div>
+                        <a href="comprar.html"><button>Comprar</button></a>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="formulario_contacto">
+                <form class="opciones_contacto">
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        <ul class="primer_formulario">
+                            <li><input type="text" name="nombre" id="id_nombre" placeholder="Nombre"></li>
+                            <li class="apellido"><input type="text" name="apellido" id="id_apellido" placeholder="Apellido"></li>
+                        </ul>
+                        <ul class="segundo_formulario">
+                            <li><input type="text" name="email" id="id_email_contacto" placeholder="Ingresa tu email"></li>
+                            <li><input type="text" name="telefono" id="id_telefono" placeholder="Telefono"></li>
+                            <li><input type="text" name="direccion" id="id_direccion" placeholder="Direccion completa"></li>
+                            <li><input type="text" name="comentario" id="id_comentario" placeholder="Comentarios"></li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <ul>
+                <li><img class="logo_footer" src="../imagenes/logo-footer.png" alt="Logo de TodoParrillas"></li>
+                <li>
+                    <form class="mail_footer">
+                        <p>Suscribite para recibir ofertas!</p>
+                        <input type="email" name="email" id="id_email" placeholder="Ingresa tu mail">
+                    </form>
+                </li>
+                <li><p class="pie_de_pagina">Realizado por Santiago Ribot para TodoParrillas. <span class="nueva_linea">Todos los derechos reservados</span></p></li>
+            </ul>
+        </footer>
+    </body>
+</html>
